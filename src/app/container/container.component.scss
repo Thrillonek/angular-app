@@ -2,14 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 5rem);
   width: 100%;
 
-}
-
-nav {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%;
 }

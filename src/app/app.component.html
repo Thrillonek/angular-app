@@ -1,1 +1,6 @@
+<div class="nav">
+  <a href="/" class="link">Chat</a>
+  <a *ngIf="!username" href="/login" class="link">Login</a>
+  <a *ngIf="username" href="/account" class="link">{{ username }}</a>
+</div>
 <router-outlet></router-outlet>

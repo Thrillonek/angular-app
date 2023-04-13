@@ -1,1 +1,17 @@
-<p>login works!</p>
+<div class="container">
+  <div class="login-container relative">
+    <div class="relative">
+      <label for="username">Username</label>
+      <input #username id="username" spellcheck="false" type="text">
+    </div>
+    <div class="relative">
+      <label for="password">Password</label>
+      <input #password id="password" spellcheck="false" type="password">
+    </div>
+
+    <span class="error">{{ error }}</span>
+
+    <button (click)="login()">Login</button>
+    <p class="register">Don't have an account? Register <a href="/register">here</a>.</p>
+  </div>
+</div>

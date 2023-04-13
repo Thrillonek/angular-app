@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "nodemon server.js",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "dev": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
@@ -18,7 +18,12 @@
     "@angular/platform-browser": "^15.1.0",
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
-    "rxjs": "~7.8.0",
+    "@angular/service-worker": "^15.1.0",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "rxjs": "^7.8.0",
+    "sqlite3": "^5.1.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
@@ -33,6 +38,7 @@
     "karma-chrome-launcher": "~3.1.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "nodemon": "^2.0.22",
     "typescript": "~4.9.4"
   }
 }

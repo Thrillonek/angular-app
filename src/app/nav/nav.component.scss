@@ -1,0 +1,21 @@
+.nav {
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 2rem; padding-right: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #ddd;
+  padding: .5em;
+  margin: 2rem;
+
+  &:hover {
+    background-color: #333;
+  }
+}
